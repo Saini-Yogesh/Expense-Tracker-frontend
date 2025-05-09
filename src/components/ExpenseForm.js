@@ -3,7 +3,7 @@ import "../Css/ExpenseForm.css";
 import { toast } from "react-toastify";
 
 const ExpenseForm = ({ onAdd, editing }) => {
-    const today = new Date().toISOString().split("T")[0];
+    const today = new Date().toLocaleDateString('en-CA');
     const [loading, setLoading] = useState(false);
 
     const [form, setForm] = useState({

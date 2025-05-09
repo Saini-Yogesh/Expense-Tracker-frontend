@@ -9,6 +9,7 @@ function Login() {
     const [form, setForm] = useState({ email: '', password: '' });
     const [errors, setErrors] = useState({});
     const [showPassword, setShowPassword] = useState(false);
+    const [loading, setLoading] = useState(false); // State to track loading status
     const { login: loginUser } = useContext(AuthContext);
     const navigate = useNavigate();
 
@@ -16,7 +17,7 @@ function Login() {
         const newErrors = {};
 
         const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailPattern.test(form.email)) {
+        if (!form.email || !emailPattern.test(form.email)) {
             newErrors.email = 'Enter a valid email.';
         }
 
@@ -32,13 +33,21 @@ function Login() {
         e.preventDefault();
         if (!validate()) return;
 
-        const res = await login(form);
-        if (res.token) {
-            loginUser(res.token);
-            toast.success('Login successful');
-            navigate('/');
-        } else {
-            toast.error(res.message || 'Login failed');
+        setLoading(true); // Start loading when submitting
+        try {
+            const res = await login(form);
+            if (res.token) {
+                loginUser(res.token);
+                toast.success('Login successful');
+                navigate('/');
+            } else {
+                toast.error(res.message || 'Login failed. Please check your credentials.');
+            }
+        } catch (error) {
+            console.error('Login error:', error);  // Log the error for debugging
+            toast.error('Logging failed. Please try again.');
+        } finally {
+            setLoading(false); // Stop loading after the request completes
         }
     };
 
@@ -81,8 +90,18 @@ function Login() {
                 </div>
                 {errors.password && <p className="auth-error">{errors.password}</p>}
 
-                <button type="submit" className="auth-form-submit">Login</button>
-
+                <button
+                    type="submit"
+                    className="auth-form-submit"
+                    disabled={loading}
+                    style={{
+                        backgroundColor: loading ? '#d3d3d3' : '#007BFF',
+                        cursor: loading ? 'not-allowed' : 'pointer',
+                        color: loading ? '#151515' : '#fff',
+                    }}
+                >
+                    {loading ? 'Logging in...' : 'Login'}
+                </button>
                 <div className="auth-form-footer">
                     <p>Don't have an account? <span onClick={() => navigate('/register')} className="auth-form-link">Register</span></p>
                 </div>
