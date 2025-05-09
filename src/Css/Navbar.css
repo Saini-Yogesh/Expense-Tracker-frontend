@@ -1,0 +1,78 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: static;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 0px 2rem;
+  position: relative;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.menu-toggle {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Common styles for buttons and links */
+.navbar-button,
+.navbar-link {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-button:hover,
+.navbar-logo :hover {
+  color: #1abc9c;
+}
+
+/* Mobile styles */
+@media (max-width: 700px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #222;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    text-align: right;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .navbar-button,
+  .navbar-link {
+    padding: 0.75rem 0;
+    width: 100%;
+    text-align: right;
+    border-bottom: 1px solid #333;
+  }
+}

@@ -1,0 +1,94 @@
+.summary-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.summary-controls select,
+.summary-controls input[type="date"],
+.summary-controls button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  transition: all 0.2s ease-in-out;
+}
+
+.summary-controls select:focus,
+.summary-controls input[type="date"]:focus,
+.summary-controls button:focus {
+  outline: none;
+  border-color: #36a2eb;
+  box-shadow: 0 0 4px rgba(54, 162, 235, 0.5);
+}
+
+.summary-controls button {
+  background-color: #36a2eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.summary-controls button:hover {
+  background-color: #1e88e5;
+}
+
+.custom-date-range {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.custom-date-range {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.summary-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.summary-chart {
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.summary-list {
+  width: 400px;
+  max-width: 100%;
+}
+
+.summary-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.summary-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.category-name {
+  flex: 1;
+}
+
+.amount {
+  font-weight: bold;
+}

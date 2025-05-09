@@ -1,0 +1,1052 @@
+[
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345002"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 300,
+    "category": "Groceries",
+    "name": "milk",
+    "date": {
+      "$date": "2025-04-25T10:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-25T10:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-25T10:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345010"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 50,
+    "category": "Other",
+    "name": "gift",
+    "date": {
+      "$date": "2017-09-30T16:50:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2017-09-30T16:50:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2017-09-30T16:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651db8de6a97847e59345013"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 450,
+    "category": "Transport",
+    "name": "taxi",
+    "date": {
+      "$date": "2024-11-15T08:20:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-15T08:20:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-15T08:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651db8de6a97847e59345014"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 900,
+    "category": "Rent",
+    "name": "apartment",
+    "date": {
+      "$date": "2023-08-16T07:56:31.632Z"
+    },
+    "createdAt": {
+      "$date": "2023-08-16T07:56:31.632Z"
+    },
+    "updatedAt": {
+      "$date": "2023-08-16T07:56:31.632Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651db8de6a97847e59345017"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 180,
+    "category": "Shopping",
+    "name": "clothes",
+    "date": {
+      "$date": "2020-06-18T12:10:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2020-06-18T12:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2020-06-18T12:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651db8de6a97847e59345019"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 350,
+    "category": "Education",
+    "name": "course",
+    "date": {
+      "$date": "2018-04-10T11:25:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2018-04-10T11:25:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2018-04-10T11:25:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651db8de6a97847e59345021"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 200,
+    "category": "Groceries",
+    "name": "bread",
+    "date": {
+      "$date": "2025-04-18T13:15:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-18T13:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-18T13:15:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "651db8de6a97847e59345025"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 500,
+    "category": "Entertainment",
+    "name": "concert",
+    "date": {
+      "$date": "2021-09-10T16:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2021-09-10T16:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2021-09-10T16:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345034"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 170,
+    "category": "Healthcare",
+    "name": "vaccination",
+    "date": {
+      "$date": "2022-01-25T18:15:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2022-01-25T18:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2022-01-25T18:15:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345037"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 130,
+    "category": "Subscriptions",
+    "name": "prime",
+    "date": {
+      "$date": "2019-10-19T10:25:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2019-10-19T10:25:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2019-10-19T10:25:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345039"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 90,
+    "category": "Other",
+    "name": "donation",
+    "date": {
+      "$date": "2017-12-30T15:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2017-12-30T15:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2017-12-30T15:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345040"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 350,
+    "category": "Food",
+    "name": "grapes",
+    "date": {
+      "$date": "2025-05-04T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-04T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-04T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345046"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 290,
+    "category": "Shopping",
+    "name": "headphones",
+    "date": {
+      "$date": "2025-05-07T10:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-07T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-07T10:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345047"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 120,
+    "category": "Subscriptions",
+    "name": "netflix",
+    "date": {
+      "$date": "2025-04-15T14:45:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-15T14:45:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-15T14:45:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345048"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 600,
+    "category": "Education",
+    "name": "course fee",
+    "date": {
+      "$date": "2024-08-11T09:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-08-11T09:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-11T09:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345049"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 480,
+    "category": "Transport",
+    "name": "bus",
+    "date": {
+      "$date": "2023-12-14T07:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2023-12-14T07:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-12-14T07:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345055"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 550,
+    "category": "Food",
+    "name": "milk",
+    "date": {
+      "$date": "2018-07-21T12:10:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2018-07-21T12:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2018-07-21T12:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345056"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 230,
+    "category": "Healthcare",
+    "name": "check-up",
+    "date": {
+      "$date": "2017-09-10T08:45:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2017-09-10T08:45:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2017-09-10T08:45:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345057"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 650,
+    "category": "Entertainment",
+    "name": "gaming",
+    "date": {
+      "$date": "2025-05-09T14:15:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-09T14:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-09T14:15:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "661db8de6a97847e59345058"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 900,
+    "category": "Food",
+    "name": "bread",
+    "date": {
+      "$date": "2025-04-20T13:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-20T13:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-20T13:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345059"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 360,
+    "category": "Rent",
+    "name": "house rent",
+    "date": {
+      "$date": "2025-05-01T11:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-01T11:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-01T11:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345060"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 200,
+    "category": "Groceries",
+    "name": "butter",
+    "date": {
+      "$date": "2025-04-15T09:45:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-15T09:45:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-15T09:45:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345061"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 520,
+    "category": "Transport",
+    "name": "car rental",
+    "date": {
+      "$date": "2024-12-15T13:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-15T13:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-15T13:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345062"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 150,
+    "category": "Healthcare",
+    "name": "clinic visit",
+    "date": {
+      "$date": "2024-11-20T10:10:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-20T10:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-20T10:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345063"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 180,
+    "category": "Entertainment",
+    "name": "theater",
+    "date": {
+      "$date": "2023-10-14T15:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2023-10-14T15:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2023-10-14T15:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345065"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 170,
+    "category": "Subscriptions",
+    "name": "amazon prime",
+    "date": {
+      "$date": "2021-09-10T12:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2021-09-10T12:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2021-09-10T12:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345066"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 90,
+    "category": "Food",
+    "name": "orange",
+    "date": {
+      "$date": "2020-05-18T14:10:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2020-05-18T14:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2020-05-18T14:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345067"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 280,
+    "category": "Healthcare",
+    "name": "doctor's visit",
+    "date": {
+      "$date": "2019-08-20T11:25:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2019-08-20T11:25:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2019-08-20T11:25:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345068"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 300,
+    "category": "Transport",
+    "name": "gas",
+    "date": {
+      "$date": "2018-03-11T10:40:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2018-03-11T10:40:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2018-03-11T10:40:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345069"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 120,
+    "category": "Entertainment",
+    "name": "video games",
+    "date": {
+      "$date": "2017-12-10T09:55:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2017-12-10T09:55:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2017-12-10T09:55:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345070"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 60,
+    "category": "Other",
+    "name": "gift",
+    "date": {
+      "$date": "2025-05-09T15:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-09T15:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-09T15:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "671db8de6a97847e59345071"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 150,
+    "category": "Shopping",
+    "name": "jeans",
+    "date": {
+      "$date": "2025-04-15T16:10:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-15T16:10:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-15T16:10:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345100"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 120,
+    "category": "Food",
+    "name": "banana",
+    "date": {
+      "$date": "2025-05-07T09:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-07T09:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-07T09:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345101"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 180,
+    "category": "Groceries",
+    "name": "bread",
+    "date": {
+      "$date": "2025-05-05T11:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-05-05T11:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-05-05T11:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345102"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 400,
+    "category": "Transport",
+    "name": "bus ticket",
+    "date": {
+      "$date": "2025-04-20T10:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-04-20T10:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-04-20T10:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345103"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 850,
+    "category": "Rent",
+    "name": "house rent",
+    "date": {
+      "$date": "2025-03-15T15:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-03-15T15:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-03-15T15:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345104"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 90,
+    "category": "Healthcare",
+    "name": "doctor consultation",
+    "date": {
+      "$date": "2025-02-10T10:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-02-10T10:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-02-10T10:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345105"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 250,
+    "category": "Entertainment",
+    "name": "concert ticket",
+    "date": {
+      "$date": "2025-01-25T13:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2025-01-25T13:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-25T13:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345106"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 100,
+    "category": "Shopping",
+    "name": "shoes",
+    "date": {
+      "$date": "2024-12-17T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-17T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-17T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345107"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 230,
+    "category": "Subscriptions",
+    "name": "spotify",
+    "date": {
+      "$date": "2024-11-05T14:15:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-05T14:15:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-05T14:15:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345108"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 150,
+    "category": "Education",
+    "name": "books",
+    "date": {
+      "$date": "2024-10-18T11:20:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-10-18T11:20:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-18T11:20:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345109"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 80,
+    "category": "Other",
+    "name": "gift",
+    "date": {
+      "$date": "2024-09-12T16:45:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-09-12T16:45:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-09-12T16:45:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345110"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 300,
+    "category": "Food",
+    "name": "grapes",
+    "date": {
+      "$date": "2024-08-25T15:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-08-25T15:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-25T15:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345111"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 450,
+    "category": "Groceries",
+    "name": "cheese",
+    "date": {
+      "$date": "2024-07-18T13:50:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-07-18T13:50:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-18T13:50:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345112"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 550,
+    "category": "Transport",
+    "name": "bike rental",
+    "date": {
+      "$date": "2024-06-19T12:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-06-19T12:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-19T12:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345113"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 950,
+    "category": "Rent",
+    "name": "apartment rent",
+    "date": {
+      "$date": "2024-05-16T14:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-05-16T14:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-05-16T14:30:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345114"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 150,
+    "category": "Healthcare",
+    "name": "physiotherapy",
+    "date": {
+      "$date": "2024-04-25T11:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-04-25T11:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-25T11:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345115"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 270,
+    "category": "Entertainment",
+    "name": "movie ticket",
+    "date": {
+      "$date": "2024-03-10T09:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-03-10T09:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-03-10T09:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345116"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 400,
+    "category": "Shopping",
+    "name": "laptop",
+    "date": {
+      "$date": "2024-02-14T13:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-14T13:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-02-14T13:00:00.000Z"
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "681db8de6a97847e59345117"
+    },
+    "user": {
+      "$oid": "681cfd6d1c52a89735d50518"
+    },
+    "amount": 80,
+    "category": "Subscriptions",
+    "name": "netflix",
+    "date": {
+      "$date": "2024-01-01T10:30:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-01-01T10:30:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-01-01T10:30:00.000Z"
+    },
+    "__v": 0
+  }
+]
