@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { login } from '../api/api';
 import { AuthContext } from '../context/AuthContext';
@@ -10,8 +10,15 @@ function Login() {
     const [errors, setErrors] = useState({});
     const [showPassword, setShowPassword] = useState(false);
     const [loading, setLoading] = useState(false); // State to track loading status
-    const { login: loginUser } = useContext(AuthContext);
+    const { token, login: loginUser } = useContext(AuthContext);
     const navigate = useNavigate();
+
+    // Redirect if already logged in
+    useEffect(() => {
+        if (token) {
+            navigate('/'); // Redirect to home/dashboard if logged in
+        }
+    }, [token, navigate]);
 
     const validate = () => {
         const newErrors = {};
@@ -45,7 +52,7 @@ function Login() {
             }
         } catch (error) {
             console.error('Login error:', error);  // Log the error for debugging
-            toast.error('Logging failed. Please try again.');
+            toast.error(error.message || 'Logging failed. Please try again.');
         } finally {
             setLoading(false); // Stop loading after the request completes
         }

@@ -10,6 +10,7 @@ import Summary from './pages/Summary';
 import Profile from './pages/Profile';
 import { ToastContainer, Bounce } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
-        <Route path="*" element={<div>Page Not Found</div>} />
+        <Route path="*" element={<NotFound />} />
         <Route
           path="/"
           element={

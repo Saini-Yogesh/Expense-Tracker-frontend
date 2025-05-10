@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { register } from '../api/api';
+import { AuthContext } from '../context/AuthContext';  // Assuming you have AuthContext set up
 import '../Css/AuthForm.css';
 import { toast } from 'react-toastify';
 
@@ -9,7 +10,15 @@ function Register() {
     const [errors, setErrors] = useState({});
     const [showPassword, setShowPassword] = useState(false);
     const [loading, setLoading] = useState(false); // Loading state
+    const { token } = useContext(AuthContext);  // Accessing token from context
     const navigate = useNavigate();
+
+    // Redirect if already logged in
+    useEffect(() => {
+        if (token) {
+            navigate('/');  // Redirect to home/dashboard if logged in
+        }
+    }, [token, navigate]);
 
     const validate = () => {
         const newErrors = {};
@@ -53,7 +62,7 @@ function Register() {
                 toast.error(res.message || 'Registration failed');
             }
         } catch (error) {
-            toast.error('Registration failed. Please try again.');
+            toast.error(error.message || 'Registration failed. Please try again.');
         }
 
         setLoading(false); // Reset loading state

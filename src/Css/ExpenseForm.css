@@ -24,7 +24,7 @@
   background-color: #218838;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .expense-form {
     margin: 1rem;
   }

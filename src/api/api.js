@@ -66,3 +66,13 @@ export const updateExpense = async (token, id, updatedExpense) => {
     });
     return handleResponse(res);
 };
+
+// Function to get the username
+export const getUsername = async (token) => {
+    const res = await fetch(`${BASE_URL}/me`, {
+        headers: {
+            Authorization: `Bearer ${token}`,
+        },
+    });
+    return handleResponse(res);
+};

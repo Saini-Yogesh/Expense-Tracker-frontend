@@ -1,6 +1,6 @@
 /* Base styles */
 .about-page {
-  min-height: 88vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -78,7 +78,7 @@
   margin-top: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .about-container {
     flex-direction: column;
   }

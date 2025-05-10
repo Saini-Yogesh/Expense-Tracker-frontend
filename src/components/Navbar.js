@@ -2,12 +2,15 @@ import React, { useContext, useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../context/AuthContext';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { getUsername } from '../api/api';
 import '../Css/Navbar.css';
+import { toast } from 'react-toastify'; // For displaying errors to the user
 
 const Navbar = () => {
     const { token, logout } = useContext(AuthContext);
     const navigate = useNavigate();
     const [menuOpen, setMenuOpen] = useState(false);
+    const [firstName, setFirstName] = useState('User');
     const menuRef = useRef(null);
 
     const handleLogout = () => {
@@ -27,6 +30,27 @@ const Navbar = () => {
         return () => document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
+    // Fetch username when token is available
+    useEffect(() => {
+        if (token) {
+            const fetchUsername = async () => {
+                try {
+                    const data = await getUsername(token); // API call to fetch the username
+                    if (data && data.username) {
+                        const splitName = data.username.split(' '); // Split the name by space
+                        setFirstName(splitName[0]); // Get the first name
+                    } else {
+                        toast.error('Username not found. Please try again later.'); // Show error if no username found
+                    }
+                } catch (err) {
+                    console.error('Error fetching username:', err);
+                    toast.error('Failed to fetch username. Please try again later.'); // Show error to user
+                }
+            };
+            fetchUsername();
+        }
+    }, [token]);
+
     return (
         <nav className="navbar">
             <div className="navbar-logo" onClick={() => navigate('/')}>
@@ -44,6 +68,7 @@ const Navbar = () => {
                         <button className="navbar-button" onClick={() => { setMenuOpen(false); navigate('/summary'); }}>Summary</button>
                         <button className="navbar-button" onClick={() => { setMenuOpen(false); navigate('/'); }}>Dashboard</button>
                         <button className="navbar-button" onClick={handleLogout}>Logout</button>
+                        <button className="navbar-button" style={{ color: "red", cursor: "auto", userSelect: "text" }} >Hi, {firstName.charAt(0).toUpperCase() + firstName.slice(1)}</button>
                     </>
                 ) : (
                     <>
